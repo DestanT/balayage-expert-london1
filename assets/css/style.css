@@ -1,20 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&family=Montserrat:wght@700&family=Yantramanav:wght@500&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    background-color: #191617;
+    background-color: #E7DFD4;
     font-family: 'Biryani', sans-serif;
-    font-weight: 300;
-    color: #927a5a;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #211f20;
 }
 
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #927a5a;
+    color: #211f20;
 }
 
 h2 {
     font-family: 'Yantramanav', sans-serif;
     font-weight: 500;
-    color: #927a5a;
+    color: #211f20;
+}
+
+/* Navigation Bar */
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    letter-spacing: 1px;
+    color: inherit;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 25px;
+}
+
+a:hover {
+    border-bottom: solid 1.5px #6B6864;
+    color: #6B6864
 }
