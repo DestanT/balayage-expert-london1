@@ -46,3 +46,16 @@ a:hover {
     border-bottom: solid 1.5px #6B6864;
     color: #6B6864
 }
+
+/* Landing site, Hero image */
+
+#hero-image {
+    height: auto;
+    width: auto;
+    margin-top: 30px;
+    float: left;
+}
+
+.line {
+    border-bottom: solid 2px #211f20;
+}
