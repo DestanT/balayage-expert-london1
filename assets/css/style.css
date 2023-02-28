@@ -58,7 +58,8 @@ a:hover {
     height: auto;
     width: auto;
     margin-top: 30px;
-    float: inline-start;
+    display: flex;
+    float: left;
 }
 
 .line {
@@ -73,10 +74,19 @@ a:hover {
     float: left;
 }
 
+/* About Me */
+
+#about-me {
+    width: 50%;
+    display: flex;
+    float: right;
+    text-align: justify;
+}
+
 /* Services */
 
 #services {
-
+    clear: both;
 }
 
 #ladies-services {
