@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&family=Montserrat:wght@700&family=Yantramanav:wght@500&display=swap');
 
-/* The idea for this piece of code came from the "Love Running" project, I liked the idea of having full control of the box-model parameters */
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
 body {
     background-color: #E7DFD4;
     font-family: 'Biryani', sans-serif;
