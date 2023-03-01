@@ -52,15 +52,7 @@ a:hover {
     color: #6B6864
 }
 
-/* Landing site, Hero image */
-
-#hero-image {
-    height: auto;
-    width: auto;
-    margin-top: 30px;
-    display: flex;
-    float: left;
-}
+/* Landing page & hero image */
 
 .line {
     border-bottom: solid 2px #211f20;
@@ -74,13 +66,16 @@ a:hover {
     float: left;
 }
 
-/* About Me */
+#hero-image {
+    height: auto;
+    width: auto;
+    display: flex;
+    float: left;
+    margin-right: 60px;
+}
 
 #about-me {
-    width: 50%;
-    display: flex;
-    float: right;
-    text-align: justify;
+    margin: 100px;
 }
 
 /* Services */
