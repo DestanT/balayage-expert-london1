@@ -9,11 +9,17 @@
 }
 
 body {
-    background-color: #E7DFD4;
+    background-image: url(../images/IMG_2727-min.PNG);
     font-family: 'Biryani', sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
     color: #211f20;
+}
+
+.inner-box {
+    background-color: #e1d4c9;
+    margin: 25px 150px;
+    border: 10px #b0907a solid;
 }
 
 h1 {
