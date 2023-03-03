@@ -13,13 +13,19 @@ body {
     font-family: 'Biryani', sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
-    color: #211f20;
+    color: #403f3d;
+}
+
+#header {
+    border: 2px #665f55 solid;
+    height: 100px;
+    z-index: -2;
 }
 
 .inner-box {
     background-color: #e1d4c9;
     margin: 25px 150px;
-    border: 10px #b0907a solid;
+    border: 7px #b0907a solid;
 }
 
 h1 {
@@ -36,6 +42,12 @@ h2 {
 
 /* Navigation Bar */
 
+#logo {
+    height: 100px;
+    display: flexbox;
+    float: left;
+}
+
 ul {
     display: flex;
     justify-content: flex-end;
@@ -47,37 +59,24 @@ ul {
 nav a {
     text-decoration: none;
     color: inherit;
-    position: relative;
-    top: 25px;
-    margin-right: 15px;
-    margin-left: 15px;
+    float: right;
+    margin: 35px 20px 35px 0;
+    
 }
 
 a:hover {
-    border-bottom: solid 1.5px #6B6864;
-    color: #6B6864
+    border-bottom: solid 1.5px #b0907a;
+    color: #b0907a
 }
 
 /* Landing page & hero image */
 
-.line {
-    border-bottom: solid 2px #211f20;
-    clear: both;
-}
-
-#logo {
-    width: auto;
-    height: auto;
-    margin: 10px 0 10px 10px;
-    float: left;
-}
-
 #hero-image {
-    height: auto;
-    width: auto;
+    height: 1080px;
+    transform: scaleX(-1);
     display: flex;
     float: left;
-    margin-right: 60px;
+    margin: 15px;
 }
 
 #about-me {
