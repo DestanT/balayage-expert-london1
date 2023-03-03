@@ -19,7 +19,6 @@ body {
 #header {
     border: 2px #665f55 solid;
     height: 100px;
-    z-index: -2;
 }
 
 .inner-box {
@@ -77,6 +76,16 @@ a:hover {
     display: flex;
     float: left;
     margin: 15px;
+}
+
+#landing-section {
+    clear: both;
+    height: 1080px;
+}
+
+#landing-header {
+    text-align: center;
+    line-height: 4em;
 }
 
 #about-me {
